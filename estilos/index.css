@@ -1,0 +1,41 @@
+
+/*-----------------------------------------------------*/
+
+*{
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/fondo.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "ubuntu";
+}
+audio{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    width: 70%;
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+    margin: auto 100px;
+}
+nav > ul > li{
+    margin: auto 20px;
+    font-weight: bold;
+}
